@@ -19,12 +19,28 @@ class FolderSorter(object):
 
             try:
                 os.makedirs(self.images)
+
+            except Exception as e:
+                pass
+
+            try:
                 os.makedirs(self.books)
+
+            except Exception as e:
+                pass
+
+            try:
                 os.makedirs(self.executables)
+
+            except Exception as e:
+                pass
+
+            try:    
                 os.makedirs(self.zips)
 
             except Exception as e:
                 pass
+ 
 
         else:
             self.images = directories.images
