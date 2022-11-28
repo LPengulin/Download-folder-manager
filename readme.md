@@ -1,4 +1,4 @@
-Download the executable or the app.py file
+Download the executable or the .py file
 Put it in the directory to be sorted and then execute it.
 
 // This will sort the files into 5 different directories
